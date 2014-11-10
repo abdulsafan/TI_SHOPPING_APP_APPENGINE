@@ -5,5 +5,12 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Safan/Desktop/calendar/google-api-services-calendar-v3-rev105-1.19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Safan/Desktop/calendar/libs/google-api-client-android-1.19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Safan/Desktop/calendar/libs/google-http-client-1.19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Safan/Desktop/calendar/libs/google-http-client-android-1.19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Safan/Desktop/calendar/libs/google-api-client-gson-1.19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Safan/Desktop/calendar/libs/google-http-client-gson-1.19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Safan/Desktop/calendar/libs/google-api-client-1.19.0.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

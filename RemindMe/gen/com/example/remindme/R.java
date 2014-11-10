@@ -339,8 +339,11 @@ containing a value of this type.
         public static final int common_signin_btn_light_text_disabled=0x7f060006;
         public static final int common_signin_btn_light_text_focused=0x7f060007;
         public static final int common_signin_btn_light_text_pressed=0x7f060005;
-        public static final int common_signin_btn_text_dark=0x7f060017;
-        public static final int common_signin_btn_text_light=0x7f060018;
+        public static final int common_signin_btn_text_dark=0x7f06001a;
+        public static final int common_signin_btn_text_light=0x7f06001b;
+        public static final int title_background=0x7f060017;
+        public static final int title_separator=0x7f060019;
+        public static final int title_text=0x7f060018;
         public static final int wallet_bright_foreground_disabled_holo_light=0x7f06000f;
         /** 
          Wallet colors to support consistent Wallet fragment holo dark UI in client application
@@ -359,8 +362,8 @@ containing a value of this type.
         public static final int wallet_hint_foreground_holo_light=0x7f060011;
         public static final int wallet_holo_blue_light=0x7f060015;
         public static final int wallet_link_text_light=0x7f060016;
-        public static final int wallet_primary_text_holo_light=0x7f060019;
-        public static final int wallet_secondary_text_holo_dark=0x7f06001a;
+        public static final int wallet_primary_text_holo_light=0x7f06001c;
+        public static final int wallet_secondary_text_holo_dark=0x7f06001d;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -372,6 +375,9 @@ containing a value of this type.
          */
         public static final int activity_horizontal_margin=0x7f090000;
         public static final int activity_vertical_margin=0x7f090001;
+        public static final int text_size_medium=0x7f090004;
+        public static final int text_size_small=0x7f090003;
+        public static final int title_height=0x7f090002;
     }
     public static final class drawable {
         public static final int addevent=0x7f020000;
@@ -421,37 +427,57 @@ containing a value of this type.
         public static final int signin=0x7f02002c;
     }
     public static final class id {
-        public static final int action_settings=0x7f07001f;
+        public static final int action_settings=0x7f070031;
         public static final int addevent=0x7f070016;
-        public static final int addpeople=0x7f070014;
+        public static final int addpeople=0x7f070015;
         public static final int book_now=0x7f070010;
         public static final int buyButton=0x7f07000a;
         public static final int buy_now=0x7f07000f;
         public static final int buy_with_google=0x7f07000e;
-        public static final int calendarView1=0x7f070015;
+        public static final int calendarView1=0x7f070014;
+        public static final int cancelButton=0x7f07002c;
         public static final int chat=0x7f070017;
+        public static final int circles_list=0x7f070022;
+        public static final int circles_title=0x7f07001f;
         public static final int classic=0x7f070011;
-        public static final int editText1=0x7f07001e;
-        public static final int email=0x7f07001d;
-        public static final int google=0x7f07001b;
+        public static final int data=0x7f07001b;
+        public static final int display_name=0x7f070030;
+        public static final int editText1=0x7f070021;
+        public static final int email=0x7f070020;
         public static final int grayscale=0x7f070012;
         public static final int holo_dark=0x7f070005;
         public static final int holo_light=0x7f070006;
         public static final int hybrid=0x7f070004;
-        public static final int id=0x7f070018;
-        public static final int imageView1=0x7f070019;
-        public static final int imageView2=0x7f07001a;
+        public static final int id=0x7f07001c;
+        public static final int imageView1=0x7f07001d;
+        public static final int imageView2=0x7f07001e;
+        public static final int linearLayout1=0x7f070018;
+        public static final int linearLayout2=0x7f070029;
+        public static final int list=0x7f07002f;
         public static final int match_parent=0x7f07000c;
+        public static final int menu_accounts=0x7f070032;
+        public static final int menu_refresh=0x7f070033;
         public static final int monochrome=0x7f070013;
+        public static final int next=0x7f070019;
         public static final int none=0x7f070000;
         public static final int normal=0x7f070001;
-        public static final int or=0x7f07001c;
+        public static final int or=0x7f070027;
+        public static final int previous=0x7f07001a;
         public static final int production=0x7f070007;
+        public static final int revoke_access_button=0x7f070025;
         public static final int sandbox=0x7f070008;
         public static final int satellite=0x7f070002;
+        public static final int saveButton=0x7f07002d;
         public static final int selectionDetails=0x7f07000b;
+        public static final int sign_in_button=0x7f070024;
+        public static final int sign_in_status=0x7f070026;
+        public static final int sign_out_button=0x7f070023;
         public static final int strict_sandbox=0x7f070009;
+        public static final int summaryText=0x7f07002b;
         public static final int terrain=0x7f070003;
+        public static final int textView1=0x7f07002a;
+        public static final int textViewTitle=0x7f070028;
+        public static final int title_refresh_progress=0x7f07002e;
         public static final int wrap_content=0x7f07000d;
     }
     public static final class integer {
@@ -460,6 +486,9 @@ containing a value of this type.
     public static final class layout {
         public static final int activity_home=0x7f030000;
         public static final int activity_main=0x7f030001;
+        public static final int addcalendar=0x7f030002;
+        public static final int calendarlist=0x7f030003;
+        public static final int circle_member=0x7f030004;
     }
     public static final class menu {
         public static final int home=0x7f0a0000;
@@ -467,8 +496,13 @@ containing a value of this type.
     }
     public static final class string {
         public static final int accept=0x7f050002;
-        public static final int action_settings=0x7f050025;
+        public static final int accounts=0x7f050035;
+        public static final int action_settings=0x7f050024;
         public static final int app_name=0x7f050023;
+        public static final int batchadd=0x7f05003e;
+        public static final int cancel=0x7f050039;
+        public static final int circles_title=0x7f050026;
+        public static final int close=0x7f050033;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
         public static final int common_android_wear_notification_needs_update_text=0x7f050009;
@@ -571,14 +605,42 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f050005;
         public static final int create_calendar_title=0x7f050004;
         public static final int decline=0x7f050003;
-        public static final int hello_world=0x7f050024;
+        public static final int delete=0x7f050040;
+        public static final int delete_title=0x7f050041;
+        public static final int description_add=0x7f050036;
+        public static final int edit=0x7f05003f;
+        public static final int error=0x7f050044;
+        public static final int error_format=0x7f050045;
+        public static final int icon_desc=0x7f05003b;
+        public static final int no=0x7f050043;
+        public static final int play_services_error=0x7f050032;
+        public static final int profile_picture=0x7f050034;
+        public static final int refresh=0x7f05003d;
+        public static final int revoke_access_button_name=0x7f050028;
+        public static final int save=0x7f05003a;
+        public static final int sign_out_button_name=0x7f050027;
+        public static final int signed_in_as=0x7f050030;
+        public static final int status_loading=0x7f05002b;
+        public static final int status_revoke_access=0x7f05002e;
+        public static final int status_revoke_access_error=0x7f05002f;
+        public static final int status_sign_in_error=0x7f05002a;
+        public static final int status_sign_in_required=0x7f050029;
+        public static final int status_signed_out=0x7f05002d;
+        public static final int status_signing_in=0x7f05002c;
         public static final int store_picture_message=0x7f050001;
         public static final int store_picture_title=0x7f050000;
-        public static final int title_activity_home=0x7f050026;
+        public static final int summary=0x7f050037;
+        public static final int summary_hint=0x7f050038;
+        public static final int title_activity_home=0x7f050025;
+        public static final int title_separator_desc=0x7f05003c;
+        /**  Used if there was an error loading the signed in user's name. 
+         */
+        public static final int unknown_person=0x7f050031;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
         public static final int wallet_buy_button_place_holder=0x7f050022;
+        public static final int yes=0x7f050042;
     }
     public static final class style {
         /** 
@@ -607,7 +669,24 @@ containing a value of this type.
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f040006;
+        public static final int ListItem=0x7f040014;
+        public static final int NoteContent=0x7f040012;
+        public static final int NoteCreate=0x7f040011;
+        public static final int NoteTime=0x7f040013;
+        public static final int SessionSubtitle=0x7f040010;
+        public static final int SessionTitle=0x7f04000f;
+        public static final int TextBody=0x7f040017;
+        public static final int TextHeader=0x7f040015;
+        public static final int TextHeaderTwo=0x7f040016;
+        public static final int Theme=0x7f040007;
         public static final int Theme_IAPTheme=0x7f040000;
+        public static final int TitleBar=0x7f040008;
+        public static final int TitleBarAction=0x7f040009;
+        public static final int TitleBarLogo=0x7f04000c;
+        public static final int TitleBarProgressIndicator=0x7f04000a;
+        public static final int TitleBarSeparator=0x7f04000b;
+        public static final int TitleBarSpring=0x7f04000d;
+        public static final int TitleBarText=0x7f04000e;
         public static final int WalletFragmentDefaultButtonTextAppearance=0x7f040003;
         public static final int WalletFragmentDefaultDetailsHeaderTextAppearance=0x7f040002;
         public static final int WalletFragmentDefaultDetailsTextAppearance=0x7f040001;

@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.remindme.MainActivity" >
-	
+
     <CalendarView
         android:id="@+id/calendarView1"
         android:layout_width="140dp"
@@ -55,6 +55,53 @@
         android:maxWidth="150dp"
         android:scaleType="fitCenter"
         android:src="@drawable/chat" />
-    
-</RelativeLayout>
 
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/calendarView1"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="Introducing ICS Calendar" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/previous"
+        android:layout_alignBottom="@+id/previous"
+        android:layout_alignLeft="@+id/calendarView1"
+        android:padding="10dip"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="68dp"
+        android:layout_toLeftOf="@+id/next"
+        android:padding="10dip"
+        android:text="Prev" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:gravity="center"
+        android:padding="10dip" />
+
+</RelativeLayout>
