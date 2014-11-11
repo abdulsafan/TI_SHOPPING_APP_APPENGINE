@@ -496,13 +496,16 @@ containing a value of this type.
     }
     public static final class string {
         public static final int accept=0x7f050002;
-        public static final int accounts=0x7f050035;
+        public static final int accounts=0x7f050038;
         public static final int action_settings=0x7f050024;
+        public static final int addevent=0x7f050031;
+        public static final int addpeople=0x7f050032;
         public static final int app_name=0x7f050023;
-        public static final int batchadd=0x7f05003e;
-        public static final int cancel=0x7f050039;
+        public static final int batchadd=0x7f050041;
+        public static final int cancel=0x7f05003c;
+        public static final int chat=0x7f050033;
         public static final int circles_title=0x7f050026;
-        public static final int close=0x7f050033;
+        public static final int close=0x7f050036;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
         public static final int common_android_wear_notification_needs_update_text=0x7f050009;
@@ -605,19 +608,19 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f050005;
         public static final int create_calendar_title=0x7f050004;
         public static final int decline=0x7f050003;
-        public static final int delete=0x7f050040;
-        public static final int delete_title=0x7f050041;
-        public static final int description_add=0x7f050036;
-        public static final int edit=0x7f05003f;
-        public static final int error=0x7f050044;
-        public static final int error_format=0x7f050045;
-        public static final int icon_desc=0x7f05003b;
-        public static final int no=0x7f050043;
-        public static final int play_services_error=0x7f050032;
-        public static final int profile_picture=0x7f050034;
-        public static final int refresh=0x7f05003d;
+        public static final int delete=0x7f050043;
+        public static final int delete_title=0x7f050044;
+        public static final int description_add=0x7f050039;
+        public static final int edit=0x7f050042;
+        public static final int error=0x7f050047;
+        public static final int error_format=0x7f050048;
+        public static final int icon_desc=0x7f05003e;
+        public static final int no=0x7f050046;
+        public static final int play_services_error=0x7f050035;
+        public static final int profile_picture=0x7f050037;
+        public static final int refresh=0x7f050040;
         public static final int revoke_access_button_name=0x7f050028;
-        public static final int save=0x7f05003a;
+        public static final int save=0x7f05003d;
         public static final int sign_out_button_name=0x7f050027;
         public static final int signed_in_as=0x7f050030;
         public static final int status_loading=0x7f05002b;
@@ -629,18 +632,18 @@ containing a value of this type.
         public static final int status_signing_in=0x7f05002c;
         public static final int store_picture_message=0x7f050001;
         public static final int store_picture_title=0x7f050000;
-        public static final int summary=0x7f050037;
-        public static final int summary_hint=0x7f050038;
+        public static final int summary=0x7f05003a;
+        public static final int summary_hint=0x7f05003b;
         public static final int title_activity_home=0x7f050025;
-        public static final int title_separator_desc=0x7f05003c;
+        public static final int title_separator_desc=0x7f05003f;
         /**  Used if there was an error loading the signed in user's name. 
          */
-        public static final int unknown_person=0x7f050031;
+        public static final int unknown_person=0x7f050034;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
         public static final int wallet_buy_button_place_holder=0x7f050022;
-        public static final int yes=0x7f050042;
+        public static final int yes=0x7f050045;
     }
     public static final class style {
         /** 
