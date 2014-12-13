@@ -8,6 +8,9 @@
 package com.example.remindme;
 
 public final class R {
+    public static final class array {
+        public static final int groups=0x7f0a0000;
+    }
     public static final class attr {
         /** 
     The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
@@ -427,57 +430,79 @@ containing a value of this type.
         public static final int signin=0x7f02002c;
     }
     public static final class id {
-        public static final int action_settings=0x7f070031;
-        public static final int addevent=0x7f070016;
-        public static final int addpeople=0x7f070015;
+        public static final int Date_time=0x7f07003e;
+        public static final int Events=0x7f070043;
+        public static final int Participants=0x7f070041;
+        public static final int TextView01=0x7f070031;
+        public static final int action_settings=0x7f070047;
+        public static final int addmembers=0x7f07002f;
         public static final int book_now=0x7f070010;
+        public static final int button1=0x7f070029;
         public static final int buyButton=0x7f07000a;
         public static final int buy_now=0x7f07000f;
         public static final int buy_with_google=0x7f07000e;
-        public static final int calendarView1=0x7f070014;
         public static final int cancelButton=0x7f07002c;
-        public static final int chat=0x7f070017;
-        public static final int circles_list=0x7f070022;
-        public static final int circles_title=0x7f07001f;
+        public static final int circles_list=0x7f07001b;
+        public static final int circles_title=0x7f07001a;
         public static final int classic=0x7f070011;
-        public static final int data=0x7f07001b;
-        public static final int display_name=0x7f070030;
-        public static final int editText1=0x7f070021;
-        public static final int email=0x7f070020;
+        public static final int creategroup=0x7f070030;
+        public static final int dat=0x7f07003f;
+        public static final int des=0x7f07003d;
+        public static final int desc=0x7f07003c;
+        public static final int description=0x7f070025;
+        public static final int display_name=0x7f070035;
+        public static final int elist=0x7f070044;
         public static final int grayscale=0x7f070012;
+        public static final int groupemails=0x7f070032;
+        public static final int groupname=0x7f070038;
         public static final int holo_dark=0x7f070005;
         public static final int holo_light=0x7f070006;
         public static final int hybrid=0x7f070004;
-        public static final int id=0x7f07001c;
-        public static final int imageView1=0x7f07001d;
-        public static final int imageView2=0x7f07001e;
-        public static final int linearLayout1=0x7f070018;
-        public static final int linearLayout2=0x7f070029;
-        public static final int list=0x7f07002f;
+        public static final int id=0x7f070016;
+        public static final int imageView1=0x7f070017;
+        public static final int imageView2=0x7f070018;
+        public static final int label=0x7f070046;
+        public static final int linearLayout1=0x7f070019;
+        public static final int linearLayout2=0x7f070028;
+        public static final int list=0x7f070034;
+        public static final int loc=0x7f07003a;
+        public static final int loca=0x7f07003b;
+        public static final int location=0x7f070026;
         public static final int match_parent=0x7f07000c;
-        public static final int menu_accounts=0x7f070032;
-        public static final int menu_refresh=0x7f070033;
+        public static final int menu_accounts=0x7f070048;
+        public static final int menu_refresh=0x7f070049;
         public static final int monochrome=0x7f070013;
-        public static final int next=0x7f070019;
+        public static final int msgView=0x7f070020;
+        public static final int myevents=0x7f070015;
         public static final int none=0x7f070000;
         public static final int normal=0x7f070001;
-        public static final int or=0x7f070027;
-        public static final int previous=0x7f07001a;
+        public static final int participant=0x7f070045;
+        public static final int plist=0x7f070042;
+        public static final int product_label=0x7f070040;
         public static final int production=0x7f070007;
-        public static final int revoke_access_button=0x7f070025;
+        public static final int rand=0x7f070037;
+        public static final int regButton=0x7f070021;
+        public static final int revoke_access_button=0x7f07001e;
         public static final int sandbox=0x7f070008;
         public static final int satellite=0x7f070002;
         public static final int saveButton=0x7f07002d;
         public static final int selectionDetails=0x7f07000b;
-        public static final int sign_in_button=0x7f070024;
-        public static final int sign_in_status=0x7f070026;
-        public static final int sign_out_button=0x7f070023;
+        public static final int sign_in_button=0x7f07001d;
+        public static final int sign_in_status=0x7f07001f;
+        public static final int sign_out_button=0x7f07001c;
         public static final int strict_sandbox=0x7f070009;
         public static final int summaryText=0x7f07002b;
         public static final int terrain=0x7f070003;
-        public static final int textView1=0x7f07002a;
-        public static final int textViewTitle=0x7f070028;
-        public static final int title_refresh_progress=0x7f07002e;
+        public static final int textView1=0x7f070014;
+        public static final int textView2=0x7f070023;
+        public static final int textView3=0x7f070024;
+        public static final int textView4=0x7f070022;
+        public static final int textViewTitle=0x7f07002a;
+        public static final int tit=0x7f070039;
+        public static final int title=0x7f070027;
+        public static final int titleCreateGroup=0x7f070036;
+        public static final int title_refresh_progress=0x7f070033;
+        public static final int titlegroup=0x7f07002e;
         public static final int wrap_content=0x7f07000d;
     }
     public static final class integer {
@@ -486,26 +511,36 @@ containing a value of this type.
     public static final class layout {
         public static final int activity_home=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int addcalendar=0x7f030002;
-        public static final int calendarlist=0x7f030003;
-        public static final int circle_member=0x7f030004;
+        public static final int activity_register=0x7f030002;
+        public static final int add_event=0x7f030003;
+        public static final int addcalendar=0x7f030004;
+        public static final int addparticipants=0x7f030005;
+        public static final int calendarlist=0x7f030006;
+        public static final int circle_member=0x7f030007;
+        public static final int creategroup=0x7f030008;
+        public static final int event=0x7f030009;
+        public static final int group=0x7f03000a;
+        public static final int participantslist=0x7f03000b;
+        public static final int view_group=0x7f03000c;
     }
     public static final class menu {
-        public static final int home=0x7f0a0000;
-        public static final int main=0x7f0a0001;
+        public static final int home=0x7f0b0000;
+        public static final int main=0x7f0b0001;
     }
     public static final class string {
+        public static final int Add_Event=0x7f050027;
+        public static final int Delete=0x7f050025;
         public static final int accept=0x7f050002;
-        public static final int accounts=0x7f050038;
+        public static final int accounts=0x7f05003d;
         public static final int action_settings=0x7f050024;
-        public static final int addevent=0x7f050031;
-        public static final int addpeople=0x7f050032;
+        public static final int addevent=0x7f050035;
+        public static final int addpeople=0x7f050036;
         public static final int app_name=0x7f050023;
-        public static final int batchadd=0x7f050041;
-        public static final int cancel=0x7f05003c;
-        public static final int chat=0x7f050033;
-        public static final int circles_title=0x7f050026;
-        public static final int close=0x7f050036;
+        public static final int batchadd=0x7f050046;
+        public static final int cancel=0x7f050041;
+        public static final int chat=0x7f050038;
+        public static final int circles_title=0x7f050028;
+        public static final int close=0x7f05003b;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
         public static final int common_android_wear_notification_needs_update_text=0x7f050009;
@@ -607,43 +642,46 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f050020;
         public static final int create_calendar_message=0x7f050005;
         public static final int create_calendar_title=0x7f050004;
+        public static final int creategroup=0x7f05002a;
         public static final int decline=0x7f050003;
-        public static final int delete=0x7f050043;
-        public static final int delete_title=0x7f050044;
-        public static final int description_add=0x7f050039;
-        public static final int edit=0x7f050042;
-        public static final int error=0x7f050047;
-        public static final int error_format=0x7f050048;
-        public static final int icon_desc=0x7f05003e;
-        public static final int no=0x7f050046;
-        public static final int play_services_error=0x7f050035;
-        public static final int profile_picture=0x7f050037;
-        public static final int refresh=0x7f050040;
-        public static final int revoke_access_button_name=0x7f050028;
-        public static final int save=0x7f05003d;
-        public static final int sign_out_button_name=0x7f050027;
-        public static final int signed_in_as=0x7f050030;
-        public static final int status_loading=0x7f05002b;
-        public static final int status_revoke_access=0x7f05002e;
-        public static final int status_revoke_access_error=0x7f05002f;
-        public static final int status_sign_in_error=0x7f05002a;
-        public static final int status_sign_in_required=0x7f050029;
-        public static final int status_signed_out=0x7f05002d;
-        public static final int status_signing_in=0x7f05002c;
+        public static final int delete=0x7f050048;
+        public static final int delete_title=0x7f050049;
+        public static final int description_add=0x7f05003e;
+        public static final int edit=0x7f050047;
+        public static final int error=0x7f05004c;
+        public static final int error_format=0x7f05004d;
+        public static final int icon_desc=0x7f050043;
+        public static final int managepeople=0x7f050037;
+        public static final int no=0x7f05004b;
+        public static final int play_services_error=0x7f05003a;
+        public static final int profile_picture=0x7f05003c;
+        public static final int refresh=0x7f050045;
+        public static final int revoke_access_button_name=0x7f05002c;
+        public static final int save=0x7f050042;
+        public static final int sign_out_button_name=0x7f05002b;
+        public static final int signed_in_as=0x7f050034;
+        public static final int status_loading=0x7f05002f;
+        public static final int status_revoke_access=0x7f050032;
+        public static final int status_revoke_access_error=0x7f050033;
+        public static final int status_sign_in_error=0x7f05002e;
+        public static final int status_sign_in_required=0x7f05002d;
+        public static final int status_signed_out=0x7f050031;
+        public static final int status_signing_in=0x7f050030;
         public static final int store_picture_message=0x7f050001;
         public static final int store_picture_title=0x7f050000;
-        public static final int summary=0x7f05003a;
-        public static final int summary_hint=0x7f05003b;
-        public static final int title_activity_home=0x7f050025;
-        public static final int title_separator_desc=0x7f05003f;
+        public static final int summary=0x7f05003f;
+        public static final int summary_hint=0x7f050040;
+        public static final int title_activity_home=0x7f050026;
+        public static final int title_separator_desc=0x7f050044;
         /**  Used if there was an error loading the signed in user's name. 
          */
-        public static final int unknown_person=0x7f050034;
+        public static final int unknown_person=0x7f050039;
+        public static final int viewgroups=0x7f050029;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
         public static final int wallet_buy_button_place_holder=0x7f050022;
-        public static final int yes=0x7f050045;
+        public static final int yes=0x7f05004a;
     }
     public static final class style {
         /** 

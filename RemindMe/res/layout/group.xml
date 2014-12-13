@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="@drawable/loginbg"
+  android:layout_height="match_parent">
+
+  <TextView android:id="@+id/product_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:padding="10dip"/>
+
+  <TextView
+      android:id="@+id/Participants"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Participants:" 
+      android:textSize="15dip"
+      android:textStyle="bold"
+      android:textColor="#FFFFFF"
+      android:padding="10dip"/>
+
+   <ListView
+       android:id="@+id/plist"
+       android:layout_width="fill_parent"
+       android:layout_height="125dip"
+       android:background="@drawable/loginbg"
+       android:padding="5dip"
+       android:textColor="#FFFFFF"
+       android:textSize="5dip" >
+   </ListView>
+
+   <TextView
+       android:id="@+id/Events"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="10dip"
+       android:text="Events:"
+       android:textColor="#FFFFFF"
+       android:textSize="15dip"
+       android:textStyle="bold" />
+	
+	<ListView
+       android:id="@+id/elist"
+       android:layout_width="fill_parent"
+       android:layout_height="125dip"
+       android:background="@drawable/loginbg"
+       android:padding="5dip"
+       android:textColor="#FFFFFF"
+       android:textSize="5dip" >
+   </ListView>
+   
+</LinearLayout>

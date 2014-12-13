@@ -1,44 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.remindme"
-    android:versionCode="1"
-    android:versionName="1.0" >
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.remindme">
 
-    <uses-sdk
-        android:minSdkVersion="19"
-        android:targetSdkVersion="19" />
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="19"/>
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
-    <uses-permission android:name="android.permission.READ_CALENDAR" />
-    <uses-permission android:name="com.example.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="com.example.alarm.permission.SET_ALARM"/>
 
-    <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+    <permission android:name="com.example.remindme.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+
+   <uses-permission android:name="com.example.remindme.permission.C2D_MESSAGE"/>
+   <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+   <uses-permission android:name="android.permission.WAKE_LOCK"/>
+   <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Home"
-            android:label="@string/title_activity_home" >
+        <activity android:label="@string/title_activity_home" android:name=".Home">
         </activity>
+        <activity android:label="@string/Add_Event" android:name=".AddEvent">
+        </activity>
+        <activity android:label="@string/viewgroups" android:name=".ViewGroups">
+        </activity>
+        <activity android:label="Group" android:name=".group">
+        </activity>
+        <activity android:label="CreateGroup" android:name=".CreateGroup">
+        </activity>
+        <activity android:label="Event" android:name=".Event">
+        </activity>
+        <activity android:label="Participants" android:name=".participants">
+        </activity>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
 
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <receiver android:name=".SetAlarm" >
+        <receiver android:name=".SetAlarm">
         </receiver>
-    </application>
+        <service android:name=".GCMIntentService"/>
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.example.remindme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.example.remindme"/>
+            </intent-filter>
+        </receiver>
+    
+        <activity android:launchMode="singleTop" android:name=".RegisterActivity"/>
+</application>
 
 </manifest>

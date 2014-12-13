@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.remindme.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titlegroup"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/circles_title" />
+
+    <TextView
+        android:id="@+id/titleCreateGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Create Group"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="70dp"
+        android:text="Group Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="37dp"
+        android:text="Add Emails:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+    <EditText
+        android:id="@+id/groupemails"
+        android:layout_width="190dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/groupname"
+        android:layout_width="180dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:ems="10" 
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/rand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupemails"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Enter Emails Seperated by a semicolon ;"
+        android:textColor="#ffffff"
+        android:textSize="10dip"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/creategroup"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClick"
+        android:text="Create Group" />
+
+</RelativeLayout>

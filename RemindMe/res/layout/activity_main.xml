@@ -57,24 +57,6 @@
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="330dp" >
-
-        <ImageView
-            android:id="@+id/email"
-            android:layout_width="100dp"
-            android:layout_height="34dp"
-            android:paddingTop="5dp"
-            android:src="@drawable/email" />
-
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/email"
-            android:layout_alignParentRight="true"
-            android:ems="10"
-            android:inputType="textEmailAddress"
-            android:textColor="#FFFFFF"
-            android:textSize="10dp" />
     </LinearLayout>
 
     <ListView
@@ -89,8 +71,8 @@
 
     <Button
         android:id="@+id/sign_out_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_alignParentLeft="true"
         android:layout_alignTop="@+id/sign_in_button"
         android:enabled="false"
@@ -107,8 +89,8 @@
 
     <TextView
         android:id="@+id/sign_in_status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_alignTop="@+id/linearLayout1"
         android:layout_marginLeft="16dp"
         android:layout_toRightOf="@+id/sign_in_button"
@@ -116,21 +98,12 @@
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
-        android:src="@drawable/googleplus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
-        android:layout_marginTop="30dp"
-        android:layout_toRightOf="@+id/sign_out_button"
-        android:enabled="false" >
-    </com.google.android.gms.common.SignInButton>
-
-    <ImageView
-        android:id="@+id/or"
-        android:layout_width="25dp"
-        android:layout_height="15dp"
-        android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/or" />
+        android:enabled="false"
+        android:src="@drawable/googleplus" >
+    </com.google.android.gms.common.SignInButton>
 
 </RelativeLayout>

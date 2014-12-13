@@ -1,5 +1,11 @@
 package com.example.remindme;
 
+
+import android.os.Bundle;
+import android.widget.ListView;
+import android.widget.TextView;
+import java.util.ArrayList;
+import android.view.View;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.SignInButton;
@@ -20,16 +26,10 @@ import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
-import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
-
-import java.util.ArrayList;
 
 /**
  * Android Google+ Quickstart activity.
@@ -94,7 +94,7 @@ public class MainActivity extends FragmentActivity implements
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-
+    
     mSignInButton = (SignInButton) findViewById(R.id.sign_in_button);
     mSignOutButton = (Button) findViewById(R.id.sign_out_button);
     mRevokeButton = (Button) findViewById(R.id.revoke_access_button);
@@ -116,8 +116,11 @@ public class MainActivity extends FragmentActivity implements
     }
 
     mGoogleApiClient = buildGoogleApiClient();
-  }
 
+  }
+  
+
+  
   private GoogleApiClient buildGoogleApiClient() {
     // When we build the GoogleApiClient we specify where connected and
     // connection failed callbacks should be returned, which Google APIs our
@@ -391,3 +394,5 @@ public class MainActivity extends FragmentActivity implements
     }
   }
 }
+
+
