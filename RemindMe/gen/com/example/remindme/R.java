@@ -454,7 +454,7 @@ containing a value of this type.
         public static final int elist=0x7f070044;
         public static final int grayscale=0x7f070012;
         public static final int groupemails=0x7f070032;
-        public static final int groupname=0x7f070038;
+        public static final int groupname=0x7f070037;
         public static final int holo_dark=0x7f070005;
         public static final int holo_light=0x7f070006;
         public static final int hybrid=0x7f070004;
@@ -480,7 +480,7 @@ containing a value of this type.
         public static final int plist=0x7f070042;
         public static final int product_label=0x7f070040;
         public static final int production=0x7f070007;
-        public static final int rand=0x7f070037;
+        public static final int rand=0x7f070038;
         public static final int regButton=0x7f070021;
         public static final int revoke_access_button=0x7f07001e;
         public static final int sandbox=0x7f070008;

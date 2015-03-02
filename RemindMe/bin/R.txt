@@ -135,7 +135,7 @@ int id display_name 0x7f070035
 int id elist 0x7f070044
 int id grayscale 0x7f070012
 int id groupemails 0x7f070032
-int id groupname 0x7f070038
+int id groupname 0x7f070037
 int id holo_dark 0x7f070005
 int id holo_light 0x7f070006
 int id hybrid 0x7f070004
@@ -161,7 +161,7 @@ int id participant 0x7f070045
 int id plist 0x7f070042
 int id product_label 0x7f070040
 int id production 0x7f070007
-int id rand 0x7f070037
+int id rand 0x7f070038
 int id regButton 0x7f070021
 int id revoke_access_button 0x7f07001e
 int id sandbox 0x7f070008

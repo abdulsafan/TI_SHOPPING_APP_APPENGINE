@@ -45,7 +45,7 @@
 
 # onClick res/layout/add_event.xml #generated:147
 # onClick res/layout/addparticipants.xml #generated:36
-# onClick res/layout/creategroup.xml #generated:47
+# onClick res/layout/creategroup.xml #generated:89
 -keepclassmembers class * { *** onClick(...); }
 
 # onClick res/layout/addcalendar.xml #generated:71
